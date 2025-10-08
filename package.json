@@ -1,0 +1,16 @@
+{
+  "name": "mentra-vsoul",
+  "version": "1.0.0",
+  "description": "Animated Tamagotchi-style companion for Even G1 glasses.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@mentra/app": "^0.9.7"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  }
+}
